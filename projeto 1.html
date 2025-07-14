@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfólio - Maria</title>
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #0d4989;
+      color: rgb(101, 116, 135);
+      padding: 15px 0;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+
+    nav {
+      max-width: 1000px;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      padding: 0 20px;
+    }
+
+    nav a {
+      color: cornflowerblue;
+      text-decoration: none;
+      margin-left: 20px;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #2378e8;
+    }
+
+    section {
+      padding: 80px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    #home {
+      background-color: #aeacff;
+    }
+
+    #sobre {
+      background-color: #86baf2;
+    }
+
+    #contato {
+      background-color: #86aefa;
+    }
+
+    footer {
+      background-color: #090862;
+      color: rgb(170, 159, 250);
+      text-align: center;
+      padding: 15px;
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      nav a {
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <div><strong>Maria.dev</strong></div>
+      <div>
+        <a href="#home">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
+      </div>
+    </nav>
+  </header>
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maria Eduarda - Portfólio</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Roboto', sans-serif;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h1, h2 {
+      font-family: 'Poppins', sans-serif;
+      color: #2c3e50;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      font-size: 28px;
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 18px;
+      margin-bottom: 15px;
+    }
+
+    #home {
+      background-color: #eaf4f4;
+      border-radius: 8px;
+    }
+
+    #sobre {
+      background-color: #ffffff;
+    }
+  </style>
+</head>
+<body>
+
+  <section id="home">
+    <h1>Bem-vindo(a)!</h1>
+    <p>
+      Meu nome é Maria Eduarda, tenho 19 anos e sou estudante do segundo semestre de Sistemas de Informação.
+      Estou em busca da minha primeira oportunidade na área de T.I., com conhecimentos iniciais em Java, Python, HTML e CSS.
+      Sou dedicada, curiosa e entusiasmada para aprender e crescer profissionalmente.
+    </p>
+  </section>
+
+  <section id="sobre">
+    <h2>Sobre mim</h2>
+    <p>
+      Sou apaixonada por tecnologia e estudo programação front-end com foco na criação de interfaces limpas, funcionais e responsivas.
+      Acredito que um bom design deve ser intuitivo, acessível e agradável tanto em computadores quanto em dispositivos móveis, e é isso que busco aplicar em todos os meus projetos.
+    </p>
+    <p>
+      Tenho interesse especial em transformar ideias simples em experiências reais por meio do código, explorando ferramentas como HTML, CSS e JavaScript para dar vida a layouts e interações.
+    </p>
+    <p>
+      Este site é um dos meus projetos experimentais, feito com carinho e atenção aos detalhes. Ele representa não só o que já aprendi, mas também minha vontade constante de evoluir e dominar novas habilidades no universo do desenvolvimento web.
+    </p>
+    <p>
+      Meu objetivo é continuar aprendendo, me aperfeiçoando e, principalmente, criar soluções que sejam úteis, bonitas e acessíveis a todos. Obrigada por visitar!
+    </p>
+  </section>
+
+</body>
+</html>
+
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <p>Email: maduedu1007@gmail.com</p>
+    <p>Whatsapp: +55 11 94064-0573 </p>
+    <p>Instagram: <a href="https://instagram.com" target="_blank">@Mad_uuu7</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Maria.dev - Todos os direitos reservados.</p>
+  </footer>
+
+  <script>
+    // Navegação suave
+    document.querySelectorAll('a[href^="#"]').forEach(link => {
